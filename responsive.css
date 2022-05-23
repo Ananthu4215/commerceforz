@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    }
+   
+    /* clear the floats */
+    .rowClass:after {
+    display: table;
+    clear: both;
+    content: "";
+    }
+    /*If screen is 800px or less then column width becomes 50% means 2 rows*/
+    @media screen and (max-width: 800px) {
+    .columnClass {
+    width: 50%;
+    }
+    }
+    /*If screen is 800px or less then column width becomes 100% means 1 rows*/
+    @media screen and (max-width: 500px) {
+    .columnClass {
+    width: 100%;
+    }
+    }
+    h1
+    {
+    color: green;
+    text-align:center;
+    }
+    btn{
+        color: blue;
+
+    }
